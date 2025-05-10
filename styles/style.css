@@ -121,11 +121,15 @@ ol {
 }
 
 .search-form__label:hover {
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 
-.search-form__label:active {
+.search-form__label-text:hover {
+  text-decoration: underline;
+}
+
+.search-form__label-text:active {
   text-decoration: none;
 }
 
